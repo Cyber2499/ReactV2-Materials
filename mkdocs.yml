@@ -1,1 +1,267 @@
 #Page Configuration file
+
+site_name: "SOC Response Guides"
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Getting Started: docs/getting_started.md
+  - Response Stages:
+      - Preparation:
+          - General:
+              - Template 1: docs/response_stages/preparation/general/template1.md
+              - Template 2: docs/response_stages/preparation/general/template2.md
+              - Template 3: docs/response_stages/preparation/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/preparation/network/template1.md
+              - Template 2: docs/response_stages/preparation/network/template2.md
+              - Template 3: docs/response_stages/preparation/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/preparation/email/template1.md
+              - Template 2: docs/response_stages/preparation/email/template2.md
+              - Template 3: docs/response_stages/preparation/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/preparation/file/template1.md
+              - Template 2: docs/response_stages/preparation/file/template2.md
+              - Template 3: docs/response_stages/preparation/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/preparation/process/template1.md
+              - Template 2: docs/response_stages/preparation/process/template2.md
+              - Template 3: docs/response_stages/preparation/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/preparation/configuration/template1.md
+              - Template 2: docs/response_stages/preparation/configuration/template2.md
+              - Template 3: docs/response_stages/preparation/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/preparation/identity/template1.md
+              - Template 2: docs/response_stages/preparation/identity/template2.md
+              - Template 3: docs/response_stages/preparation/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/preparation/cloud/template1.md
+              - Template 2: docs/response_stages/preparation/cloud/template2.md
+              - Template 3: docs/response_stages/preparation/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/preparation/forensics/template1.md
+              - Template 2: docs/response_stages/preparation/forensics/template2.md
+              - Template 3: docs/response_stages/preparation/forensics/template3.md
+      - Identification:
+          - General:
+              - Template 1: docs/response_stages/identification/general/template1.md
+              - Template 2: docs/response_stages/identification/general/template2.md
+              - Template 3: docs/response_stages/identification/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/identification/network/template1.md
+              - Template 2: docs/response_stages/identification/network/template2.md
+              - Template 3: docs/response_stages/identification/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/identification/email/template1.md
+              - Template 2: docs/response_stages/identification/email/template2.md
+              - Template 3: docs/response_stages/identification/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/identification/file/template1.md
+              - Template 2: docs/response_stages/identification/file/template2.md
+              - Template 3: docs/response_stages/identification/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/identification/process/template1.md
+              - Template 2: docs/response_stages/identification/process/template2.md
+              - Template 3: docs/response_stages/identification/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/identification/configuration/template1.md
+              - Template 2: docs/response_stages/identification/configuration/template2.md
+              - Template 3: docs/response_stages/identification/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/identification/identity/template1.md
+              - Template 2: docs/response_stages/identification/identity/template2.md
+              - Template 3: docs/response_stages/identification/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/identification/cloud/template1.md
+              - Template 2: docs/response_stages/identification/cloud/template2.md
+              - Template 3: docs/response_stages/identification/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/identification/forensics/template1.md
+              - Template 2: docs/response_stages/identification/forensics/template2.md
+              - Template 3: docs/response_stages/identification/forensics/template3.md
+      - Containment:
+          - General:
+              - Template 1: docs/response_stages/containment/general/template1.md
+              - Template 2: docs/response_stages/containment/general/template2.md
+              - Template 3: docs/response_stages/containment/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/containment/network/template1.md
+              - Template 2: docs/response_stages/containment/network/template2.md
+              - Template 3: docs/response_stages/containment/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/containment/email/template1.md
+              - Template 2: docs/response_stages/containment/email/template2.md
+              - Template 3: docs/response_stages/containment/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/containment/file/template1.md
+              - Template 2: docs/response_stages/containment/file/template2.md
+              - Template 3: docs/response_stages/containment/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/containment/process/template1.md
+              - Template 2: docs/response_stages/containment/process/template2.md
+              - Template 3: docs/response_stages/containment/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/containment/configuration/template1.md
+              - Template 2: docs/response_stages/containment/configuration/template2.md
+              - Template 3: docs/response_stages/containment/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/containment/identity/template1.md
+              - Template 2: docs/response_stages/containment/identity/template2.md
+              - Template 3: docs/response_stages/containment/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/containment/cloud/template1.md
+              - Template 2: docs/response_stages/containment/cloud/template2.md
+              - Template 3: docs/response_stages/containment/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/containment/forensics/template1.md
+              - Template 2: docs/response_stages/containment/forensics/template2.md
+              - Template 3: docs/response_stages/containment/forensics/template3.md
+      - Eradication:
+          - General:
+              - Template 1: docs/response_stages/eradication/general/template1.md
+              - Template 2: docs/response_stages/eradication/general/template2.md
+              - Template 3: docs/response_stages/eradication/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/eradication/network/template1.md
+              - Template 2: docs/response_stages/eradication/network/template2.md
+              - Template 3: docs/response_stages/eradication/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/eradication/email/template1.md
+              - Template 2: docs/response_stages/eradication/email/template2.md
+              - Template 3: docs/response_stages/eradication/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/eradication/file/template1.md
+              - Template 2: docs/response_stages/eradication/file/template2.md
+              - Template 3: docs/response_stages/eradication/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/eradication/process/template1.md
+              - Template 2: docs/response_stages/eradication/process/template2.md
+              - Template 3: docs/response_stages/eradication/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/eradication/configuration/template1.md
+              - Template 2: docs/response_stages/eradication/configuration/template2.md
+              - Template 3: docs/response_stages/eradication/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/eradication/identity/template1.md
+              - Template 2: docs/response_stages/eradication/identity/template2.md
+              - Template 3: docs/response_stages/eradication/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/eradication/cloud/template1.md
+              - Template 2: docs/response_stages/eradication/cloud/template2.md
+              - Template 3: docs/response_stages/eradication/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/eradication/forensics/template1.md
+              - Template 2: docs/response_stages/eradication/forensics/template2.md
+              - Template 3: docs/response_stages/eradication/forensics/template3.md
+      - Recovery:
+          - General:
+              - Template 1: docs/response_stages/recovery/general/template1.md
+              - Template 2: docs/response_stages/recovery/general/template2.md
+              - Template 3: docs/response_stages/recovery/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/recovery/network/template1.md
+              - Template 2: docs/response_stages/recovery/network/template2.md
+              - Template 3: docs/response_stages/recovery/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/recovery/email/template1.md
+              - Template 2: docs/response_stages/recovery/email/template2.md
+              - Template 3: docs/response_stages/recovery/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/recovery/file/template1.md
+              - Template 2: docs/response_stages/recovery/file/template2.md
+              - Template 3: docs/response_stages/recovery/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/recovery/process/template1.md
+              - Template 2: docs/response_stages/recovery/process/template2.md
+              - Template 3: docs/response_stages/recovery/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/recovery/configuration/template1.md
+              - Template 2: docs/response_stages/recovery/configuration/template2.md
+              - Template 3: docs/response_stages/recovery/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/recovery/identity/template1.md
+              - Template 2: docs/response_stages/recovery/identity/template2.md
+              - Template 3: docs/response_stages/recovery/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/recovery/cloud/template1.md
+              - Template 2: docs/response_stages/recovery/cloud/template2.md
+              - Template 3: docs/response_stages/recovery/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/recovery/forensics/template1.md
+              - Template 2: docs/response_stages/recovery/forensics/template2.md
+              - Template 3: docs/response_stages/recovery/forensics/template3.md
+      - Lessons Learned:
+          - General:
+              - Template 1: docs/response_stages/lessons_learned/general/template1.md
+              - Template 2: docs/response_stages/lessons_learned/general/template2.md
+              - Template 3: docs/response_stages/lessons_learned/general/template3.md
+          - Network:
+              - Template 1: docs/response_stages/lessons_learned/network/template1.md
+              - Template 2: docs/response_stages/lessons_learned/network/template2.md
+              - Template 3: docs/response_stages/lessons_learned/network/template3.md
+          - Email:
+              - Template 1: docs/response_stages/lessons_learned/email/template1.md
+              - Template 2: docs/response_stages/lessons_learned/email/template2.md
+              - Template 3: docs/response_stages/lessons_learned/email/template3.md
+          - File:
+              - Template 1: docs/response_stages/lessons_learned/file/template1.md
+              - Template 2: docs/response_stages/lessons_learned/file/template2.md
+              - Template 3: docs/response_stages/lessons_learned/file/template3.md
+          - Process:
+              - Template 1: docs/response_stages/lessons_learned/process/template1.md
+              - Template 2: docs/response_stages/lessons_learned/process/template2.md
+              - Template 3: docs/response_stages/lessons_learned/process/template3.md
+          - Configuration:
+              - Template 1: docs/response_stages/lessons_learned/configuration/template1.md
+              - Template 2: docs/response_stages/lessons_learned/configuration/template2.md
+              - Template 3: docs/response_stages/lessons_learned/configuration/template3.md
+          - Identity:
+              - Template 1: docs/response_stages/lessons_learned/identity/template1.md
+              - Template 2: docs/response_stages/lessons_learned/identity/template2.md
+              - Template 3: docs/response_stages/lessons_learned/identity/template3.md
+          - Cloud:
+              - Template 1: docs/response_stages/lessons_learned/cloud/template1.md
+              - Template 2: docs/response_stages/lessons_learned/cloud/template2.md
+              - Template 3: docs/response_stages/lessons_learned/cloud/template3.md
+          - Forensics:
+              - Template 1: docs/response_stages/lessons_learned/forensics/template1.md
+              - Template 2: docs/response_stages/lessons_learned/forensics/template2.md
+              - Template 3: docs/response_stages/lessons_learned/forensics/template3.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
